@@ -1,0 +1,148 @@
+
+@media(max-width: 1285px){
+    .todo{
+        display: none;
+    }
+    .nada{
+        background: black;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: red;
+        overflow: hidden;
+    }
+    
+
+}
+@media(min-width: 1285px){
+    .nada{
+        display: none;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .todo{
+        width: 100%;
+        height: 100vh;
+        font-size: 1em;
+        background: #14141d;
+    }
+    .cabeza{
+        width: 100%;
+        height: 10vh;
+    }
+    .navA{
+        width: 100%;
+        height: 4vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background: #fff;
+    }
+    .navA a{
+        font-size: 2em;
+        text-decoration: none;
+        color: black;
+        margin-right: 3vh;
+        border: 2px solid black;
+        transition: .3s;
+}
+.navA a:hover{
+    color:rgb(255, 190, 137);
+    text-shadow: 0 0 4px rgb(255, 135, 66),
+    0 0 6px rgb(255, 135, 66);
+}
+    .navB{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2vh;
+    }
+    .navB h3{
+        font-size: 4em;
+        color: rgba(255, 166, 0, 0.363);
+        transition: .3s;
+}
+.navB h3:hover{
+    font-size: 4.3em;
+    color: rgb(255, 115, 0);
+
+}
+    .navB a{
+        margin-right: 3vh;
+        text-decoration: none;
+        color: orange; 
+        padding: 0.5vh 3vh;
+        transition: .2s;
+    }
+    .navB a:hover, .active{
+        border: 3px solid rgb(255, 115, 0);
+    }
+    section{
+        width: 88%;
+        height: 70vh;
+        margin: 10vh;
+        display: flex;
+        flex-direction: row;
+    }
+    .texto{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        margin-left: 20vh;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        color:white;
+    }
+    .texto h3{
+        transition: .3s;
+    }
+    .texto h3:hover{
+            font-size: 3.3em;
+            color:rgb(255, 170, 100);
+    }
+    .texto h2{
+        font-size: 6em;
+        color: rgb(218, 130, 58); 
+    }
+    .texto h2:hover{
+        text-shadow: 0 0 4px rgb(255, 170, 100),
+        0 0 6px rgb(255, 170, 100);
+    }
+    .texto p{
+        font-size: 2.3em;
+        color:rgba(255, 213, 185, 0.692);
+        transition: .4s;
+    }
+    .texto p:hover{
+        color:rgba(255, 213, 185); 
+    }
+
+    .texto a{
+        padding: 1.2vh 3vh;
+        text-decoration: none;
+        color :white;
+        margin-top: 2vh;
+        border: 2px solid white;
+        border-radius:10px;
+        background: rgba(255, 102, 0, 0.993);
+    }
+    .dere{
+        width: 80vh;
+        margin: 10vh 0vh 10vh 10vh ;
+        background: url(/imagenes/about.png);
+    }
+    .todo{
+        display: block;
+    }
+    
+
+}

@@ -1,0 +1,144 @@
+@media(max-width: 1285px){
+    .todo{
+        display: none;
+    }
+    .nada{
+        background: black;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: red;
+        overflow: hidden;
+    }
+    
+
+}
+@media(min-width: 1285px){
+    .nada{
+        display: none;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todo{
+    width: 100%;
+    height: 100vh;
+    font-size: 1em;
+    background: #14141d;
+}
+.cabeza{
+    width: 100%;
+    height: 10vh;
+}
+.navA{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: #fff;
+}
+.navA a{
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    margin-right: 3vh;
+    border: 2px solid black;
+    transition: .3s;
+}
+.navA a:hover{
+    color:rgb(255, 190, 137);
+    text-shadow: 0 0 4px rgb(255, 135, 66),
+    0 0 6px rgb(255, 135, 66);
+}
+.navB{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vh;
+}
+.navB h3{
+    font-size: 4em;
+    color: rgba(255, 166, 0, 0.363);
+    transition: .3s;
+}
+.navB h3:hover{
+    font-size: 4.3em;
+    color: rgb(255, 115, 0);
+
+}
+.navB a{
+    margin-right: 3vh;
+    text-decoration: none;
+    color: orange; 
+    padding: 0.5vh 3vh;
+    transition: .2s;
+}
+.navB a:hover, .active{
+    border: 3px solid rgb(255, 115, 0);
+}
+section{
+    width: 88%;
+    height: 70vh;
+    margin: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+.texto{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto h5{
+    font-size: 1em;
+    color: white;
+    transition: .4s;
+}
+.texto h5:hover{
+    font-size: 4em;
+    color: rgb(255, 191, 139);
+}
+.texto p{
+font-size: 4em;
+color: rgb(218, 130, 58); 
+}
+.texto p:hover{
+    text-shadow: 0 0 3px rgb(255, 180, 131),
+    0 0 4px rgb(255, 180, 131);
+}
+.tablas{
+    margin-top: 5vh;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+.tabla{
+    height: 100%;
+    width: 40vh;
+    border: orange solid 3px;
+    display: flex;
+    background: orange;
+    border-radius: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.tabla:hover{
+    width: 45vh;
+}
+.tabla h4{
+    color: rgb(209, 94, 0); 
+    font-size: 1.4em;
+}}
